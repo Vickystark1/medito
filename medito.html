@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="medito.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script>
+  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 24V80H168c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h56v56c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V176h56c13.3 0 24-10.7 24-24V104c0-13.3-10.7-24-24-24H320V24c0-13.3-10.7-24-24-24H248c-13.3 0-24 10.7-24 24zM559.7 392.2c17.8-13.1 21.6-38.1 8.5-55.9s-38.1-21.6-55.9-8.5L392.6 416H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h16 64c17.7 0 32-14.3 32-32s-14.3-32-32-32H288 272 193.7c-29.1 0-57.3 9.9-80 28L68.8 384H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H192 352.5c29 0 57.3-9.3 80.7-26.5l126.6-93.3zm-367-8.2l.9 0 0 0c-.3 0-.6 0-.9 0z"/></svg>
+</head>
+<body>
+  <header>
+    <div class="nav">
+
+      <a href="#" class="logo">
+        <ion-icon name="medkit-outline" class="medikit"></ion-icon>Medito
+      </a>
+
+      <div class="box">
+        <div class="cart-count">0</div>
+        <ion-icon name="cart"  id="cart-icon" ></ion-icon>
+      </div>
+
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+<!--
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-medititle">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="images/97.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-medititle">Special Dosai</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.72</div>
+                 <div class="cart-amt">Rs.72</div>
+             </div>
+              <input type="number" value="1" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+        -->
+        </div>
+        
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">Rs.0</div>
+      </div>
+
+      <button class="btn-buy">Place Order</button>
+
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <h2 class="title">* 24/7 Medicine Support</h2>
+    <div class="shop-content">
+
+           
+      <div class="medi-box">
+        <div class="pic">
+          <img src="dolo33.png" class="medi-img">
+        </div>
+        <h2 class="medititle">Dolo 650</h2>
+        <span class="mediamount">Rs.33</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon><span class="clickbtn">Click to Add</span>
+      </div>
+
+      <div class="medi-box">
+        <div class="pic"><img src="amrutanjan125.jpg" class="medi-img"></div>
+        <h2 class="medititle">Amrutanjan</h2>
+        <span class="mediamount">Rs.125</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon><span class="clickbtn">Click to Add</span>
+      </div>
+  
+      <div class="medi-box">
+        <div class="pic"><img src="analgesic.png" class="medi-img"></div>
+        <h2 class="medititle">Analgesic</h2>
+        <span class="mediamount">Rs.80</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon><span class="clickbtn">Click to Add</span>
+      </div>
+  
+      <div class="medi-box">
+        <div class="pic"><img src="dicloplus22.jpg" class="medi-img"></div>
+        <h2 class="medititle">Diclo Plus</h2>
+        <span class="mediamount">Rs.22</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon><span class="clickbtn">Click to Add</span>
+      </div>
+  
+      <div class="medi-box">
+        <div class="pic"><img src="gelusil11.jpg" class="medi-img"></div>
+        <h2 class="medititle">Gelusil</h2>
+        <span class="mediamount">Rs.11</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon><span class="clickbtn">Click to Add</span>
+      </div>
+  
+      <div class="medi-box">
+        <div class="pic"><img src="paracetamol6.jpeg" class="medi-img"></div>
+        <h2 class="medititle">Paracetamol</h2>
+        <span class="mediamount">Rs.16</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon><span class="clickbtn">Click to Add</span>
+      </div>
+  
+  
+      <div class="medi-box">
+        <div class="pic"><img src="ranitidine23.jpg" class="medi-img"></div>
+        <h2 class="medititle">Ranitidine</h2>
+        <span class="mediamount">Rs.23</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon><span class="clickbtn">Click to Add</span>
+      </div>
+  
+  
+      <div class="medi-box">
+        <div class="pic"><img src="amoxicillin108.png" class="medi-img"></div>
+        <h2 class="medititle">Amoxicllin</h2>
+        <span class="mediamount">Rs.108</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon><span class="clickbtn">Click to Add</span>
+      </div>
+  
+
+
+
+
+    </div>
+  </div>
+  <script src="medito.js"></script>
+</body>
+</html>
